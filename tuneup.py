@@ -7,7 +7,7 @@ __author__ = "???"
 import cProfile
 import pstats
 import functools
-
+import timeit
 
 def profile(func):
     """A function that can be used as a decorator to measure performance"""
